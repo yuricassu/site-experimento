@@ -1,0 +1,29 @@
+@charset "UTF-8";
+h1#per{
+    text-align: center;
+}
+p#per{
+    font-size: 15pt;
+    font-family: sans-serif arial;
+    
+}
+
+iframe{
+    width: 580px;
+    height: 600px;
+    border: none;
+  position: relative;
+  left: 300px;
+  top: -80px;
+ 
+}
+iframe::-webkit-scrollbar{
+    display: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+}
